@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 50px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #sentence {
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 0 10px;
+    width: 400px; /* Uzunluğu ayarlayın */
+  }
+  
+  #character {
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 0 10px;
+    width: 50px;  /* Kısalığı ayarlayın */
+  }
+  
+  #count-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hover geçiş efekti */
+  }
+  
+  #count-button:hover {
+    background-color: #9b9999; /* Hover rengi */
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
