@@ -30,9 +30,3 @@ The application is designed to:
 
 * The application utilizes the `countOfChar` function written in JavaScript to calculate character occurrences.
 * The function iterates through the sentence string and checks for matches with the entered character (case-insensitive).
-
-This is a basic example, and you can further customize it by:
-
-* Implementing case-sensitive character search.
-* Including functionality to count special characters or whitespace.
-* Expanding the functionality to support character frequency analysis for the entire sentence.
